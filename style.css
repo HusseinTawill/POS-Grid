@@ -1,0 +1,145 @@
+body{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.pos{
+    margin:auto;
+    width: 800px;
+    height: 600px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,188,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.description{
+display: grid;
+grid-template-rows: 10% 10%;
+grid-template-columns: auto auto auto;
+height: 100%;
+
+}
+
+.input{
+display: grid;
+margin-left: 5px;
+grid-template-columns: 16% 16% 16% 16% 16% 16%;
+height: 100%;
+width:100% ;
+}
+
+
+
+svg{
+    width: 50%;
+    height: 50%;
+}
+.cal{
+    grid-column: span 3;
+
+   
+}
+
+.cal1{
+    text-align: end;
+    
+}
+
+
+.product{
+    
+    grid-column: 2 / span 2;
+    grid-row:  4 / span 2 ;
+
+}
+
+.check{
+grid-row: span 2;
+}
+
+.date{
+    grid-column: span 6;
+    grid-row: 1 / 2;
+    background-color: slategray;
+    padding:2px;
+    height: 30px;
+}
+
+.date > p {
+    display: inline;
+}
+
+.items{
+    
+    margin: 3px;
+    background-color: azure;
+    font-size: 20px;
+}
+
+.items2{
+    margin: 5px;
+    background-color: azure;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+   }
+
+
+.price{
+    color: rgb(9, 139, 46);
+    grid-column: span 2;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.table{
+grid-column: span 3;
+grid-row: 2 / span 50;
+}
+
+table{
+    width:100% ;
+    
+    
+}
+.screen{
+   margin-left: 80%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+tr{
+    padding: 5px;
+    width: 100%;
+    
+}
+
+th{
+    text-align: center;
+    padding: 3px;
+    background-color: cadetblue;
+
+    
+}
+td{
+    padding: 5px;
+}
+ 
+.empty{
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.title{
+    margin: 2px;
+    text-align: start;
+    font-size: 10px;
+}
